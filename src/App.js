@@ -107,7 +107,7 @@ function ChatRoom() {
   </>)
 }
 
-
+// entha monuse jadayano
 function ChatMessage(props) {
   const { text, uid, photoURL } = props.message;
   const messageClass = uid === auth.currentUser.uid ? 'sent' : 'received';
